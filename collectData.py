@@ -4,13 +4,20 @@ from datetime import datetime
 from os import mkdir
 from time import sleep
 
-playlists = ["PLu0W_9lII9agtWvR_TZdb_r0dNI8-lDwG", "PLu0W_9lII9ahwFDuExCpPFHAK829Wto2O"]
+playlists = [
+    "UUmXZxX_qexEZxhb5_vQKPCw",
+    "UUBwmMxybNva6P_5VmxjzwqA",
+    "UU4MZ7zUHb5eAxU75Dc_nqdQ",
+    "UUBGOUQHNNtNGcGzVq5rIXjw",
+]
+
+
 # playlists = ["UU7iCj6RpJlRL4iPac_Ca9SA"]
 timestamp = datetime.now()
 timestamp = str(timestamp).replace(':', '_').split('.')[0]
 
 for count, playlistId in enumerate(playlists):
-    sleep(1800)
+    sleep(2000)
     totalData = []
 
     # a = sp.getoutput('youtube-dl -s --print-json --write-info-json https://www.youtube.com/watch?v=PIUnwYYBEnw')
