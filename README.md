@@ -1,5 +1,4 @@
 # ytnl
  
 Make folders:
-data
-outputs
+data, outputs
